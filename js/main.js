@@ -118,6 +118,11 @@ function abrirModal(proyectoId) {
                 <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 20px;">
                     Este sistema nació para ayudar a llevar el orden de los abonos y saldos de un terreno de forma sencilla. Fue mi primer gran proyecto donde aprendí a conectar ideas con código real usando Django y a crear una página que fuera fácil de usar.
                 </p>
+                <div style="margin-bottom: 25px;">
+                    <a href="https://github.com/Tokyossz/Control-Amortizacion-Terreno" target="_blank" class="btn-project-link">
+                        <i class="fab fa-github"></i> Ver Código en GitHub
+                    </a>
+                </div>
                 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
                     <span class="tag">Python</span>
                     <span class="tag">Django</span>
@@ -133,6 +138,11 @@ function abrirModal(proyectoId) {
                 <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 20px;">
                     Me dio curiosidad saber qué guarda una computadora mientras está encendida, así que creé esta herramienta en C++. Sirve para "asomarse" a la memoria RAM y encontrar datos importantes como textos o direcciones, ayudando a entender mejor cómo viaja la información.
                 </p>
+                <div style="margin-bottom: 25px;">
+                    <a href="https://github.com/Tokyossz/LectorRAM" target="_blank" class="btn-project-link">
+                        <i class="fab fa-github"></i> Ver Código en GitHub
+                    </a>
+                </div>
                 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
                     <span class="tag">C++</span>
                     <span class="tag">Curiosidad Técnica</span>

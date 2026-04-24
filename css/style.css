@@ -649,6 +649,38 @@ nav a:hover, nav a.active { color: #fff; text-shadow: 0 0 10px var(--primary); }
     transform: translateY(-2px);
 }
 
+/* --- BOTÓN DE LINK A PROYECTO (GITHUB) --- */
+.btn-project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-project-link i {
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.btn-project-link:hover {
+    background: var(--primary);
+    border-color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(251, 54, 64, 0.3);
+}
+
+.btn-project-link:hover i {
+    color: #fff;
+}
+
 /* --- SCROLL REVEAL PARA SECCIONES --- */
 section {
     opacity: 0;
