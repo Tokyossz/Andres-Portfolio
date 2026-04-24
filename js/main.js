@@ -108,7 +108,11 @@ function abrirModal(proyectoId) {
     const proyectos = {
         'sistema-inventario': {
             titulo: 'Control de Pagos - Terrenos',
-            imagenes: ['1.jpg', '4.jpg', '5.jpg'],
+            imagenes: [
+                'DjangoTerreno/Captura de pantalla 2026-04-24 165243.png',
+                'DjangoTerreno/Captura de pantalla 2026-04-24 165258.png',
+                'DjangoTerreno/Captura de pantalla 2026-04-24 165322.png'
+            ],
             descripcion: `
                 <h2 style="color: var(--primary); margin-bottom: 20px;">Control de Pagos de Terrenos</h2>
                 <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 20px;">
